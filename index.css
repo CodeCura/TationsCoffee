@@ -94,7 +94,7 @@ margin:auto;
   margin: 0 auto;
 }
 .title-subheader, #welcome {
-  font-size: 2.7rem;
+  font-size: 4rem;
   font-weight: 500;
   display: block;
   margin-bottom: 3rem;
@@ -133,12 +133,12 @@ margin:auto;
   padding:0;
   margin-left: -20px;
 }
-#big-heart, #inafa {
-   padding: 15vh 20vw;
+#inafa {
+   padding: 10vh 20vw;
 }
 #big-heart{
   background-color:#ffe165;
-
+     padding: 15vh 20vw;
 }
 #impact {
    padding: 0vh 20vw 15vh 20vw;
@@ -262,4 +262,36 @@ footer{
 }
 /* Responsive */
 @media (max-width: 800px) {
- 
+  *{
+    overflow-wrap:anywhere;
+    word-break:keep-all;
+    overflow:scroll;
+    text-overflow:ellipsis;
+    font-size:1.8rem;
+  }
+  #homepage-header, #big-heart, #inafa, footer{
+    padding:4.5rem 2rem;
+  }
+  #impact{
+    padding: 1.8rem 2rem 2.2rem 2rem;
+  }
+  #inafa{
+    margin-top:0;
+    padding-top:0;
+  }
+  .nav-link, #address, .section-subheader{
+    font-size:1.2rem;
+  }
+  .name-header{
+    font-size:5rem;
+    margin-bottom:1rem;
+  }
+  #little-stand, #inafa-maolek, #big-ideas, .moving-text, #contact-us{
+    font-size:4rem;
+  }
+  .section-subheader{
+    font-size:2rem;
+  }
+  .title-subheader, #welcome, #tc {
+    font-size:2.5rem;
+  }
