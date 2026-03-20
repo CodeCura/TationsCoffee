@@ -26,7 +26,7 @@ html {
   width: 100vw;
   height: 100vh;
     background-color:#ffffff;
-  text-align:center;
+  text-align:left;
   font-size:2rem;
 }
 button, .btn {
@@ -41,11 +41,15 @@ button, .btn {
   font-family: "Playfair Display";
 margin:auto;
 }
+.center{
+  display:block;
+  text-align:center;
+}
 #homepage-header {
   width:100vw;
   text-align: center;
   padding: 80px 20px;
-  background: url("https://drive.google.com/file/d/1i9PLCnpgIJrWEDcG68u5lGVLJUVLv3eN/view?usp=sharing")
+  background: url("https://images.unsplash.com/photo-1562766370-226f5648d946?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzM5NDc0ODZ8&ixlib=rb-4.1.0&q=85")
     repeat;
   background-size: 100vw;
   background-position: 50% 50%;
@@ -54,7 +58,6 @@ margin:auto;
 
 #nav-bar {
   width: 100vw;
-  margin-top: 2rem;
   padding: 2rem 20px;
   display:flex;
   align-items:center;
@@ -79,7 +82,7 @@ margin:auto;
   font-weight: 600;
   font-size: 1.8rem;
 }
-.nav-link:hover, .nav-link:visited, .nav-link:active {
+.nav-link:hover, .nav-link:visited, .nav-link:active, #mail-to:hover {
   color: black;
 }
 #nav-list li {
@@ -91,10 +94,15 @@ margin:auto;
   margin: 0 auto;
 }
 .title-subheader, #welcome {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 500;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  text-align:center;
+}
+.bottom-space{
+  display:block;
+  margin-bottom:2rem;
 }
 #email-me {
   width: 40%;
@@ -126,7 +134,7 @@ margin:auto;
   margin-left: -20px;
 }
 #big-heart, #inafa {
-   padding: 10vh 20vw;
+   padding: 20vh 20vw;
 }
 #impact {
    padding: 0vh 20vw 30vh 20vw;
@@ -135,13 +143,26 @@ margin:auto;
   font-size:6rem;
   color:#202d65;
 }
+#big-ideas{
+  margin-bottom:2rem;
+}
 #follow-us, #contact-us, #tc {
     font-size:6rem;
 color:#ffffff;
+  margin-top:2rem;
+}
+.red-text{
+  color:#b30000;
+}
+
+p, #social-images{
+  margin-top:1rem;
+  margin-bottom:4rem;
 }
 #little-stand{
   font-size:8rem;
   color:#b30000;
+  margin-bottom:2rem;
 }
 .tabbed {
   display:block;
@@ -166,7 +187,7 @@ color:#ffffff;
 
 .moving-text {
     /* Apply the animation to the text element */
-    animation: move-text 50s linear infinite ; 
+    animation: move-text 80s linear infinite ; 
     display: inline-block;
 }
 
@@ -215,7 +236,7 @@ input{
   border-style:none;
   height: 3rem;
   width:45vw;
-  margin:5px auto;
+  margin:2rem auto 3rem auto;
 }
 #message{
   height: 15vw;
