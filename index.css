@@ -156,7 +156,7 @@ color:#ffffff;
 }
 
 p, #social-images{
-  margin-top:1rem;
+  margin-top:1.6rem;
   margin-bottom:4rem;
 }
 #little-stand{
@@ -247,7 +247,7 @@ footer{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  align-items:flex-start;
+  align-items:center;
   color:white;
   text-align:left;
   padding:40px 70px ;
